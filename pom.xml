@@ -14,7 +14,7 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>15</java.version>
 		<app.image.name>springboot-react-fullstack</app.image.name>
 		<app.image.tag/>
 	</properties>
@@ -27,6 +27,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -72,7 +73,7 @@
 				<version>2.5.2</version>
 				<configuration>
 					<from>
-						<image>openjdk:17</image>
+						<image>openjdk:15</image>
 					</from>
 					<container>
 						<ports>
@@ -98,7 +99,7 @@
 						<version>2.5.2</version>
 						<configuration>
 							<from>
-								<image>openjdk:17</image>
+								<image>openjdk:15</image>
 							</from>
 							<container>
 								<ports>
@@ -150,7 +151,7 @@
 						<version>2.5.2</version>
 						<configuration>
 							<from>
-								<image>openjdk:17</image>
+								<image>openjdk:15</image>
 							</from>
 							<container>
 								<ports>
